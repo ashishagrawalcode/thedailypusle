@@ -1,0 +1,14 @@
+# Dependencies (The Heavy Stuff)
+**/node_modules/
+
+# Secrets (The Vault Passwords)
+**/.env
+**/.env.local
+
+# Build Outputs (Vercel will build this itself)
+**/dist/
+**/build/
+
+# Operating System Junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Arial Black", "Impact", sans-serif;
+  
+  --color-offwhite: #EBE9E1;
+  --color-charcoal: #111111;
+  --color-brand-orange: #E43D12;
+  --color-brand-magenta: #D6536D;
+  --color-brand-pink: #FFA2B6;
+  --color-brand-gold: #EFB11D;
+  --color-brand-beige: #EBE9E1;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-beige);
+    color: var(--color-brand-orange); 
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    letter-spacing: -0.02em;
+  }
+}
